@@ -1,6 +1,7 @@
 <?php
 $data = file_get_contents('https://www.codeschool.com/users/IIIpoint14guy.json');
 $json_data = json_decode($data, true);
+$courses = array();
 $courses = $json_data['courses']['completed'];
 ?>
 <!DOCTYPE html>

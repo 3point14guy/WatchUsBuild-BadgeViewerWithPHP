@@ -27,3 +27,4 @@ $courses = $json_data['courses']['completed'];
       </div>
     </div>
   </body>
+  </html>

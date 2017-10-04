@@ -15,6 +15,7 @@ $courses = $json_data['courses']['completed'];
   <body>
     <header>
       <h1>Nicholas Piaskoski's Code School Badges</h1>
+      <h4><a href="http://www.nickpie.com">Back to Nick's Portfolio</a></h4>
     </header>
     <div class="container">
       <div class="grid">

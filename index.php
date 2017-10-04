@@ -24,6 +24,7 @@ $courses = $json_data['courses']['completed'];
             echo '<a href="' . $course["url"] . '">' . $course["title"] . '</a>';
             echo '</div>';
           };
+        ?>
       </div>
     </div>
   </body>

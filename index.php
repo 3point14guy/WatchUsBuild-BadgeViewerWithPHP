@@ -20,7 +20,7 @@ $courses = $json_data['courses']['completed'];
         <?php
           foreach($courses as $course) {
             echo '<div class="grid-cell">';
-            echo '<img height="200px" src="' . $course["badge"] . '"><br/>';
+            echo '<img height="200px" src="' . $course["badge"] . '"/><br/>';
             echo '<a href="' . $course["url"] . '">' . $course["title"] . '</a>';
             echo '</div>';
           };
